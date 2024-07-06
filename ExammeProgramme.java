@@ -36,12 +36,12 @@ public class ExamProgram {
 
           // Count the number of coursework assessments done
           int count = 0;
-          for (int i = 0; i < 5; i++) {
-            if (i == 0 && ass1 > 0) count++;
-            if (i == 1 && ass2 > 0) count++;
-            if (i == 2 && ass3 > 0) count++;
-            if (i == 3 && cat1 > 0) count++;
-            if (i == 4 && cat2 > 0) count++;
+          for (int m = 0; m < 5; m++) {
+            if (m == 0 && ass1 > 0) count++;
+            if (m == 1 && ass2 > 0) count++;
+            if (m == 2 && ass3 > 0) count++;
+            if (m == 3 && cat1 > 0) count++;
+            if (m == 4 && cat2 > 0) count++;
           }
 
           System.out.println("Number of coursework assessments done: " + count);
